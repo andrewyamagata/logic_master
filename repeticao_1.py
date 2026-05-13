@@ -8,6 +8,16 @@ while contador < 10:
 
 print('-'*30)
 
+contador2 = 0
+
+while contador2 < 10:
+    contador2 += 1
+    if contador2 == 3:
+        break
+    print(contador2)
+
+print('-'*30)
+
 lista = [1, 2, 3, 4, 5]
 
 for numero in lista:
